@@ -1,0 +1,144 @@
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+  /* ↓追記 */
+	width: 960px;
+  margin-left: 300px;
+  /* background-color:  #525151; */
+  background-color: rgb(245, 245, 245);
+
+
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a {
+    text-decoration:none; 
+}
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+
+
+
+.btn-wrap {
+  margin-top: 50px;
+}
+
+
+.btn--orange,
+a.btn--orange {
+border-radius: 50px;
+background: #ffffff;
+box-shadow: inset 35px 35px 70px #ffffff,
+ inset -35px -35px 70px #ffffff;
+display: inline-block;
+ font-size: 20px;
+ font-weight: bold;
+ max-width: 100%;
+ padding: 12px 20px;
+ text-align: center;
+ width: 200px;
+             opacity:0.5;
+
+}
+
+.btn:focus,
+.btn:hover {
+  background: #fff;
+  border-color: currentColor;
+  color: #c0b9b9;
+}
+
+
+.text--orange {
+border-radius: 10px;
+background: #ffffff;
+box-shadow: inset 35px 35px 70px #ffffff,
+ inset -35px -35px 70px #ffffff;
+display: inline-block;
+ font-size: 20px;
+ font-weight: bold;
+ max-width: 100%;
+ padding: 12px 20px;
+ text-align: center;
+ width: 200px;
+           opacity:0.5;
+  
+}
+
+.text:focus,
+.text:hover {
+  background: #fff;
+  border-color: currentColor;
+  color: #c0b9b9;
+}
+
+
+
+
+.login_title{
+ color: rgb(241, 240, 240);
+ font-weight: bold;
+font-family: 'Lora', serif;
+
+font-size: 50px;
+text-shadow: -1px -2px 3px #000000;  
+}
+
+
+
+.icon{
+    color: #000;
+    font-size: 50px;
+}
+
+
+input[type="file"] {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+label {
+border-radius: 50px;
+background: #ffffff;
+box-shadow: inset 35px 35px 70px #979090,
+ inset -35px -35px 70px #ffffff;
+display: inline-block;
+ font-size: 20px;
+ font-weight: bold;
+ max-width: 100%;
+ padding: 12px 20px;
+ text-align: center;
+ width: 200px;
+  opacity:0.8;
+
+}
+
+.fileclear {
+  display: none;
+  margin: 10px 0 0;
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.js-upload-file{
+  background-color: black;
+}
