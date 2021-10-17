@@ -45,9 +45,9 @@ require_once "vendor/autoload.php";
 
 use Aws\S3\S3Client;
 
-$bucket = 'growproduct20211001';
-$key = 'AKIAVWPIY3FE4WB7KV7N';
-$secret = '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';
+$bucket = '';
+$key = '';
+$secret = '';
 
 // S3クライアントを作成
 $s3 = new S3Client(array(
@@ -56,7 +56,7 @@ $s3 = new S3Client(array(
         'key' => $key,
         'secret' => $secret,
     ),
-    'region'  => 'us-east-1', // 米国東部 (バージニア北部)
+    'region'  => '', // 米国東部 (バージニア北部)
 ));
 
 // アップロードされた画像の処理
